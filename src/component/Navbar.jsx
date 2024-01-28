@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from "../assets/LOGO.png"
 
 function Navbar() {
   return (
@@ -13,10 +14,12 @@ function Navbar() {
         </a>
             <div>
                   <div className='flex gap-12 ml-3 top-2 absolute text-[#25233B] text-2xl'>
-                      <div>LOGO</div>
+            <div>
+              <img src={logo} alt="logo" className='w-32' />
+                      </div>
                       <a href="#">HOME</a>
-                      <a href="/Apropos">PRENDRE UN RENDEZ-VOUS</a>
-                      <a href="#">A PROPOS</a>
+                      <a href="/recherche">PRENDRE UN RENDEZ-VOUS</a>
+                      <a href="/apropos">A PROPOS</a>
                   </div>      
               </div>  
               

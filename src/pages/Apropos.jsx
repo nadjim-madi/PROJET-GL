@@ -38,13 +38,16 @@ function Apropos() {
             Ce service de prise de rendez-vous en ligne vous permet de convenir d'une consultation en cabinet avec un avocat près de chez vous et compétent sur votre dossier. À cette occasion, vous pourrez poser toutes les questions souhaitées à votre avocat afin qu'il vous conseille avec précision sur votre situation et qu'il vous apporte des éléments de réponses clairs. De plus, vous maîtrisez votre budget en réglant votre consultation en avance à un prix fixe.
         </div>
         
-    </div>
-    <button
+          </div>
+          <a href="/Recherche">
+            <button
       className="bg-[#D04946] w-full mb-10 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:shadow-outline mr-3"
       type="submit"
     >
       Faire une recherche
     </button>
+          </a>
+    
         </div>
         
 </div>

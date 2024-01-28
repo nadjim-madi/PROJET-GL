@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 
 function ToggleForm() {
     const [showAdditionalInputs, setShowAdditionalInputs] = useState(false);
-    const [showmore, setShowmore] = useState(">");
+    const [showmore, setShowmore] = useState("Show more filters");
 
     const toggleForm = () => {
         setShowAdditionalInputs(!showAdditionalInputs);
         if (showAdditionalInputs === false) {
-            setShowmore("<")
+            setShowmore("Show less filters")
         } else { 
-            setShowmore(">")
+            setShowmore("Show more filters")
         }
     };
 
@@ -24,7 +24,7 @@ function ToggleForm() {
                 </div>
                 <div className='flex gap-3'>
                     <label htmlFor="input2">Activity:</label>
-                    <input  list="activityOptions" id="input2" className='rounded text-black' />
+                    <input  list="activityOptions" id="input2" className='rounded text-black ' />
                     <datalist id="activityOptions">
                         <option value="Avocat général" />
                         <option value="Avocat spécialisé" />
@@ -34,7 +34,7 @@ function ToggleForm() {
                     <>
                         <div className='flex gap-3'>
                             <label htmlFor="input3">Location:</label>
-                            <input  list="locationOptions" id="input3" className='rounded text-black' />
+                            <input  list="locationOptions" id="input3" className='rounded text-black ' />
                             <datalist id="locationOptions">
                                 <option value="Blida" />
                                 <option value="Bejaia" />
@@ -43,7 +43,7 @@ function ToggleForm() {
                         </div>
                         <div className='flex gap-3'>
                             <label htmlFor="input4">Language:</label>
-                            <input  list="languageOptions" id="input4" className='rounded text-black' />
+                            <input  list="languageOptions" id="input4" className='rounded text-black ' />
                             <datalist id="languageOptions">
                                 <option value="Français" />
                                 <option value="Arabe" />
@@ -54,7 +54,7 @@ function ToggleForm() {
                     </>
                 )}
             </div>
-            <button onClick={toggleForm} className='rotate-90 text-2xl font-extrabold text-[#D04946] w-20 border-[#D04946]'>{showmore}</button>
+            <button onClick={toggleForm} className='text-black border-[3px] rounded bg-white w-40 h-full border-[#D04946]'>{showmore}</button>
             <button className='rounded w-40 bg-[#D04946]'>Rechercher</button> 
             {/*had le button rah yeb3eth wech kheyer le client l db bach teb3ethlou wech  demanda */}
         </div>

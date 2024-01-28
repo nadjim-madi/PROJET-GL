@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../component/Navbar'
 import ToggleForm from '../component/ToggleForm'
-import RechercheResults from '../component/RechcercheResults'
+import LawyerList from '../component/LawyerList'
 
 function Recherche() {
   return (
@@ -11,8 +11,8 @@ function Recherche() {
               <ToggleForm />
               
           </div>
-          <div className='flex items-center justify-center text-center'>
-              <RechercheResults/>
+          <div className='flex items-center justify-center text-left'>
+              <LawyerList/>
           </div>
     </div>
   )

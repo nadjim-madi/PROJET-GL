@@ -39,7 +39,7 @@ function Apropos() {
         </div>
         
           </div>
-          <a href="/Recherche">
+          <a href="/recherche">
             <button
       className="bg-[#D04946] w-full mb-10 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:shadow-outline mr-3"
       type="submit"

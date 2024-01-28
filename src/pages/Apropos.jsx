@@ -3,6 +3,7 @@ import lawyer from '../assets/searchlawyer1.png'; // Import the lawyer image fil
 import Navbar from '../component/Navbar';
 import Footer from '../component/Footer';
 
+
 function Apropos() {
   return (
       <div>
@@ -47,9 +48,7 @@ function Apropos() {
         </div>
         
 </div>
-
-                    
-        <Footer/>
+                  <Footer/>
                 </div>
                 
                 

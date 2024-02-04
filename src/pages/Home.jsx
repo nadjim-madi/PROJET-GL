@@ -1,19 +1,24 @@
-import React from 'react';
-import Navbar from '../component/Navbar';
-import Apropos from './Apropos';
-import Recherche from './Recherche';
-import ToggleForm from '../component/ToggleForm';
-import NavInscription from '../component/NavInscription';
-import Inscription from './Inscription';
-import LawyerList from '../component/LawyerList';
+// import React from 'react';
+// import Navbar from '../component/Navbar';
+// import Apropos from './Apropos';
+// import Recherche from './Recherche';
+// import ToggleForm from '../component/ToggleForm';
+// import NavInscription from '../component/NavInscription';
+// import Inscription from './Inscription';
+// import LawyerList from '../component/LawyerList';
 
-function Home() {
-  return (
-   <div>
-      <Recherche/>
+// function Home() {
+//   return (
+//    <div>
+//       <Recherche/>
 
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
 
-export default Home;
+// export default Home;
+
+
+
+
+

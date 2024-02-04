@@ -7,7 +7,7 @@ function Navbar() {
           <br />
           <br />
           <div className='border-b-2  border-b-[#ECECEC] '>
-              <a href="/registration">
+              <a href="/inscription">
           <button className='rounded-full text-2xl bg-[#D04946] pb-2 px-2 top-1 right-2 absolute text-white'>
             connexion
           </button>
